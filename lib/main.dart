@@ -27,7 +27,9 @@ class Home extends StatelessWidget{
     body: Center(
       child:Image(
         image: AssetImage("images/tomatoes2.png"),
+
       ),
+
 //    child: Text("Tomatoes"
 //    ,style: TextStyle(
 //    fontWeight: FontWeight.bold,
@@ -40,6 +42,7 @@ class Home extends StatelessWidget{
     ),floatingActionButton: FloatingActionButton(
     child:Text("Add"),
 onPressed: (){},
+      backgroundColor: Colors.red[900],
     ),
     );
   }
