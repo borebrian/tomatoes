@@ -25,10 +25,28 @@ class Home extends StatelessWidget{
 
     ),
     body: Center(
-      child:Image(
-        image: AssetImage("images/tomatoes2.png"),
+        child: RaisedButton(
+            onPressed: () => {},
+            textColor: Colors.white,
+            color: Colors.red[900],
+          highlightColor: Colors.red[400],
+            child: Text(
+              'Click Me',
+              style: TextStyle(fontSize: 20),
+            ),),
 
-      ),
+
+
+
+//      child: Icon(
+//        Icons.account_circle,
+//        color: Colors.red[900],
+//        size: 90,
+//      ),
+//      child:Image(
+//        image: AssetImage("images/tomatoes2.png"),
+//
+//      ),
 
 //    child: Text("Tomatoes"
 //    ,style: TextStyle(
